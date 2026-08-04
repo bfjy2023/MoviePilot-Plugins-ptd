@@ -3,6 +3,12 @@
   "is_dead": false,
   "levels": [
     {
+      "id": 0,
+      "name": "走火入魔",
+      "isKept": true,
+      "privilege": "入站初始等级"
+    },
+    {
       "id": 1,
       "name": "筑基",
       "privilege": "入站初始等级"

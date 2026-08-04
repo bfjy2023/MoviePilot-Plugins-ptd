@@ -78,6 +78,7 @@
       "nameAka": [
         "研究生"
       ],
+      "isKept": true,
       "privilege": "该级别及以上将不再有账户必须180-360天内登录一次要求。首次升级至此等级的用户将获得2个邀请名额。",
       "interval": "P80W",
       "downloaded": "25000GB",

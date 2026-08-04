@@ -46,6 +46,7 @@
     {
       "id": 6,
       "name": "Veteran User",
+      "isKept": true,
       "privilege": "低于2.95分享率将被降级；首次升级至此等级的用户将获得10个邀请名额",
       "interval": "P40W",
       "downloaded": "5120GB",

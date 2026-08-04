@@ -51,6 +51,7 @@
     {
       "id": 7,
       "name": "Veteran User",
+      "isKept": true,
       "privilege": "可以查看其它用户的评论、帖子历史。Veteran User及以上用户会永远保留账号。分享率低于2.95，你将自动降级。",
       "interval": "P40W",
       "downloaded": "3200GB",

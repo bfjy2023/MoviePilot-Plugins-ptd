@@ -5,6 +5,7 @@
     {
       "id": 0,
       "name": "Lv.0 清明",
+      "isKept": true,
       "privilege": "初始等级",
       "bonus": 1000
     },

@@ -5,6 +5,7 @@
     {
       "id": 1,
       "name": "User",
+      "isKept": true,
       "privilege": "新用户默认等级;可以正常下载/上传，访问论坛"
     },
     {
