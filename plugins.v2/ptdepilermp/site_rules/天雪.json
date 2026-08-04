@@ -3,6 +3,12 @@
   "is_dead": false,
   "levels": [
     {
+      "id": 0,
+      "name": "Lv.0 清明",
+      "privilege": "初始等级",
+      "bonus": 1000
+    },
+    {
       "id": 1,
       "name": "Lv.1 白露",
       "privilege": "自定义头衔；允许发短消息；允许加好友；允许设置回帖奖励；允许参与点评；",
