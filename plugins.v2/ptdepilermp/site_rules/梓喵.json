@@ -1,0 +1,162 @@
+{
+  "name": "梓喵",
+  "is_dead": false,
+  "levels": [
+    {
+      "id": 1,
+      "name": "Peasant",
+      "privilege": "被降级的用户，有5天时间来提升分享率，否则他们会被禁用。"
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "privilege": "新用户的默认级别。"
+    },
+    {
+      "id": 3,
+      "name": "Power User",
+      "privilege": "",
+      "interval": "P4W",
+      "seedPoints": 40000,
+      "downloaded": "50GB",
+      "ratio": 1.0,
+      "uploads": 1,
+      "demotionRatio": 1.0
+    },
+    {
+      "id": 4,
+      "name": "Elite User",
+      "privilege": "Elite User及以上用户封存账号后不会被删除。",
+      "interval": "P8W",
+      "seedPoints": 100000,
+      "downloaded": "100GB",
+      "ratio": 2.0,
+      "uploads": 5,
+      "demotionRatio": 0.5
+    },
+    {
+      "id": 5,
+      "name": "Crazy User",
+      "privilege": "",
+      "interval": "P15W",
+      "seedPoints": 300000,
+      "downloaded": "150GB",
+      "ratio": 3.0,
+      "uploads": 10,
+      "demotionRatio": 1.5
+    },
+    {
+      "id": 6,
+      "name": "Insane User",
+      "privilege": "",
+      "interval": "P25W",
+      "seedPoints": 500000,
+      "downloaded": "200GB",
+      "ratio": 4.0,
+      "uploads": 20,
+      "demotionRatio": 2.0
+    },
+    {
+      "id": 7,
+      "name": "Veteran User",
+      "privilege": "Veteran User及以上用户会永远保留账号。",
+      "interval": "P40W",
+      "seedPoints": 1000000,
+      "downloaded": "250GB",
+      "ratio": 5.0,
+      "uploads": 40,
+      "demotionRatio": 2.5,
+      "isKept": true
+    },
+    {
+      "id": 8,
+      "name": "Extreme User",
+      "privilege": "",
+      "interval": "P60W",
+      "seedPoints": 1500000,
+      "downloaded": "300GB",
+      "ratio": 6.0,
+      "uploads": 80,
+      "demotionRatio": 3.0,
+      "isKept": true
+    },
+    {
+      "id": 9,
+      "name": "Ultimate User",
+      "privilege": "",
+      "interval": "P80W",
+      "seedPoints": 2000000,
+      "downloaded": "350GB",
+      "ratio": 7.0,
+      "uploads": 150,
+      "demotionRatio": 3.5,
+      "isKept": true
+    },
+    {
+      "id": 10,
+      "name": "Nexus Master",
+      "privilege": "",
+      "interval": "P100W",
+      "seedPoints": 5000000,
+      "downloaded": "400GB",
+      "ratio": 8.0,
+      "uploads": 200,
+      "demotionRatio": 4.0,
+      "isKept": true
+    },
+    {
+      "id": 11,
+      "name": "黄星",
+      "privilege": "为网站捐款的主。",
+      "groupType": "donor"
+    },
+    {
+      "id": 100,
+      "name": "贵宾(VIP)",
+      "groupType": "vip",
+      "privilege": "和Nexus Master拥有相同权限并被认为是精英成员。免除自动降级。"
+    },
+    {
+      "id": 101,
+      "name": "其它",
+      "groupType": "custom",
+      "privilege": "自定义等级。"
+    },
+    {
+      "id": 200,
+      "name": "养老族(Retiree)",
+      "groupType": "manager",
+      "privilege": "退休后的管理组成员。"
+    },
+    {
+      "id": 201,
+      "name": "发布员(Uploader)",
+      "groupType": "manager",
+      "privilege": "专注的发布者。免除自动降级；可以查看匿名用户的真实身份。"
+    },
+    {
+      "id": 202,
+      "name": "总版主(Moderator)",
+      "groupType": "manager",
+      "privilege": "可以查看管理组信箱、举报信箱；可以编辑或删除任何发布的种子；可以管理候选；可以管理论坛帖子、用户评论；可以查看机密日志；可以管理日志中的代码、史册；可以查看用户的邀请记录；可以管理用户帐号的一般信息。"
+    },
+    {
+      "id": 203,
+      "name": "管理员(Administrator)",
+      "groupType": "manager",
+      "privilege": "除了不能改变站点设定、管理捐赠外，可以做任何事。"
+    },
+    {
+      "id": 204,
+      "name": "维护开发员(Sysop)",
+      "groupType": "manager",
+      "privilege": "网站开发/维护人员，可以改变站点设定，不能管理捐赠。"
+    },
+    {
+      "id": 205,
+      "name": "主管(Staff Leader)",
+      "groupType": "manager",
+      "privilege": "网站主管，可以做任何事。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "海胆之家",
+  "is_dead": false,
+  "levels": [
+    {
+      "id": 0,
+      "name": "User",
+      "privilege": "新用户的默认级别，仅能下载免费种子，可以直接发布种子"
+    },
+    {
+      "id": 1,
+      "name": "Power User",
+      "privilege": "允许购买邀请码，可以直接发布种子，可以删除自己上传的字幕。",
+      "interval": "P2W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 100
+    },
+    {
+      "id": 2,
+      "name": "Elite User",
+      "privilege": "Elite User允许发送邀请码，并拥有低于该等级以下权限。",
+      "interval": "P4W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 200
+    },
+    {
+      "id": 3,
+      "name": "Crazy User",
+      "privilege": "查看种子结构，并拥有低于该等级以下权限。",
+      "interval": "P8W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 500
+    },
+    {
+      "id": 4,
+      "name": "Insane User",
+      "privilege": "发布趣味盒，并拥有低于该等级以下权限。",
+      "interval": "P16W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 1000
+    },
+    {
+      "id": 5,
+      "name": "Veteran User",
+      "isKept": true,
+      "privilege": "Veteran User永远保留账号，并拥有低于该等级以下权限。",
+      "interval": "P28W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 2000
+    },
+    {
+      "id": 6,
+      "name": "Extreme User",
+      "isKept": true,
+      "privilege": "查看日志权限，并拥有低于该等级以下权限。",
+      "interval": "P32W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 5000
+    },
+    {
+      "id": 7,
+      "name": "Ultimate User",
+      "isKept": true,
+      "privilege": "查看排行榜，并拥有低于该等级以下权限",
+      "interval": "P40W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 8000
+    },
+    {
+      "id": 8,
+      "name": "Nexus Master",
+      "isKept": true,
+      "privilege": "允许匿名，拥有发布主题推荐权限，并拥有低于该等级以下权限",
+      "interval": "P52W",
+      "downloaded": "50GB",
+      "ratio": 1,
+      "seedingBonus": 10000
+    }
+  ]
+}

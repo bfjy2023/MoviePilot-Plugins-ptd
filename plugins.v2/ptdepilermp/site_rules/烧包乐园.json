@@ -1,0 +1,83 @@
+{
+  "name": "烧包乐园",
+  "is_dead": false,
+  "levels": [
+    {
+      "id": 1,
+      "name": "User",
+      "privilege": ""
+    },
+    {
+      "id": 2,
+      "name": "Power User",
+      "privilege": "低于0.95分享率将被降级",
+      "interval": "P4W",
+      "downloaded": "50GB",
+      "ratio": 1.05,
+      "seedingBonus": 40000
+    },
+    {
+      "id": 3,
+      "name": "Elite User",
+      "privilege": "低于1.45分享率将被降级；首次升级至此等级的用户将获得1个邀请名额",
+      "interval": "P8W",
+      "downloaded": "120GB",
+      "ratio": 1.55,
+      "seedingBonus": 80000
+    },
+    {
+      "id": 4,
+      "name": "Crazy User",
+      "privilege": "低于1.95分享率将被降级；首次升级至此等级的用户将获得2个邀请名额",
+      "interval": "P15W",
+      "downloaded": "1024GB",
+      "ratio": 2.05,
+      "seedingBonus": 1000000
+    },
+    {
+      "id": 5,
+      "name": "Insane User",
+      "privilege": "低于2.45分享率将被降级；首次升级至此等级的用户将获得5个邀请名额",
+      "interval": "P25W",
+      "downloaded": "2048GB",
+      "ratio": 2.55,
+      "seedingBonus": 2000000
+    },
+    {
+      "id": 6,
+      "name": "Veteran User",
+      "privilege": "低于2.95分享率将被降级；首次升级至此等级的用户将获得10个邀请名额",
+      "interval": "P40W",
+      "downloaded": "5120GB",
+      "ratio": 3.05,
+      "seedingBonus": 3000000
+    },
+    {
+      "id": 7,
+      "name": "Extreme User",
+      "privilege": "低于3.45分享率将被降级；首次升级至此等级的用户将获得10个邀请名额",
+      "interval": "P60W",
+      "downloaded": "10240GB",
+      "ratio": 3.55,
+      "seedingBonus": 5000000
+    },
+    {
+      "id": 8,
+      "name": "Ultimate User",
+      "privilege": "低于3.95分享率将被降级；首次升级至此等级的用户将获得10个邀请名额",
+      "interval": "P80W",
+      "downloaded": "20480GB",
+      "ratio": 4.05,
+      "seedingBonus": 8000000
+    },
+    {
+      "id": 9,
+      "name": "Nexus Master",
+      "privilege": "低于4.45分享率将被降级；首次升级至此等级的用户将获得10个邀请名额",
+      "interval": "P100W",
+      "downloaded": "30720GB",
+      "ratio": 4.55,
+      "seedingBonus": 10000000
+    }
+  ]
+}

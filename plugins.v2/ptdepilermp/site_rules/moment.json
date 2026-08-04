@@ -1,0 +1,106 @@
+{
+  "name": "Moment",
+  "is_dead": false,
+  "levels": [
+    {
+      "id": 0,
+      "name": "User",
+      "nameAka": [
+        "取景者"
+      ],
+      "privilege": "新用户的默认级别。注册7天内无数据零保将封禁账号。不零保的情况下，永久保留账号（违规除外）。"
+    },
+    {
+      "id": 1,
+      "name": "Power User",
+      "nameAka": [
+        "快门手"
+      ],
+      "privilege": "Power User及以上用户可以发送邀请，可以发布摄影作品到候选区。",
+      "interval": "P2W",
+      "downloaded": "8GB",
+      "ratio": 1.2
+    },
+    {
+      "id": 2,
+      "name": "Elite User",
+      "nameAka": [
+        "暗房师"
+      ],
+      "privilege": "Elite User及以上用户可以查看工具区。",
+      "interval": "P6W",
+      "downloaded": "20GB",
+      "ratio": 1.6
+    },
+    {
+      "id": 3,
+      "name": "Crazy User",
+      "nameAka": [
+        "追光者"
+      ],
+      "privilege": "Crazy User以上用户可以直接发布摄影作品，无需候选。",
+      "interval": "P12W",
+      "downloaded": "50GB",
+      "ratio": 2.05
+    },
+    {
+      "id": 4,
+      "name": "Insane User",
+      "nameAka": [
+        "显示师"
+      ],
+      "privilege": "可以查看普通日志。",
+      "interval": "P20W",
+      "downloaded": "100GB",
+      "ratio": 2.55
+    },
+    {
+      "id": 5,
+      "name": "Veteran User",
+      "nameAka": [
+        "镜界者"
+      ],
+      "isKept": true,
+      "privilege": "得到1个邀请名额；可以查看其它用户的评论、帖子历史。",
+      "interval": "P40W",
+      "downloaded": "300GB",
+      "ratio": 3.05
+    },
+    {
+      "id": 6,
+      "name": "Extreme User",
+      "nameAka": [
+        "光影师"
+      ],
+      "isKept": true,
+      "privilege": "得到1个邀请名额；可以更新过期的外部信息；可以查看Extreme User论坛。",
+      "interval": "P60W",
+      "downloaded": "500GB",
+      "ratio": 3.55
+    },
+    {
+      "id": 7,
+      "name": "Ultimate User",
+      "nameAka": [
+        "造影者"
+      ],
+      "isKept": true,
+      "privilege": "得到1个邀请名额。",
+      "interval": "P80W",
+      "downloaded": "800GB",
+      "ratio": 4.05
+    },
+    {
+      "id": 8,
+      "name": "Nexus Master",
+      "nameAka": [
+        "永恒之眼"
+      ],
+      "isKept": true,
+      "privilege": "得到2个邀请名额。",
+      "interval": "P100W",
+      "downloaded": "1TB",
+      "ratio": 4.55
+    }
+  ]
+}
