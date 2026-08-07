@@ -60,7 +60,6 @@
     {
       "id": 6,
       "name": "VIP",
-      "groupType": "vip",
       "isKept": true,
       "privilege": "捐赠后作为感谢分配给捐赠者，或由管理员手动授予的用户等级。特权详情请查看：https://www.torrentleech.org/user/donate",
       "increasedPoints": "10%",
