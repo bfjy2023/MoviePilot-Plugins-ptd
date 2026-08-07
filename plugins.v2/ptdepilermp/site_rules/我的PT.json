@@ -47,6 +47,7 @@
     {
       "id": 7,
       "name": "Veteran User",
+      "isKept": true,
       "privilege": "得到三個邀請名額；可以檢視其他用戶的評論、帖子曆史。Veteran User及以上用戶會永遠保留賬號。",
       "interval": "P40W",
       "downloaded": "750GB",
