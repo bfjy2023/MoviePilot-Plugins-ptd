@@ -1,15 +1,16 @@
 {
   "PTDepilerMp": {
-    "name": "PT 站点保号状态",
+    "name": "PT站点保号状态",
     "description": "展示PT站点当前等级、保号等级和保号缺口。",
     "labels": "站点,等级,仪表板",
-    "version": "9.0",
+    "version": "9.1",
     "icon": "database.png",
     "author": "zyt0339,bfjy",
     "level": 2,
     "v2": true,
     "release": true,
     "history": {
+      "v9.1": "一键打开非保号站点，站点未配置保号等级逻辑",
       "v9.0": "修复非mp原因报错的站点陪护",
       "v1.38.1": "调整插件详情页表格列宽",
       "v1.38.0": "快速切换,规则表格,仪表盘,手机适配",
