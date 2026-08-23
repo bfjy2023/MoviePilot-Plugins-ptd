@@ -36,6 +36,7 @@
     {
       "id": 6,
       "name": "VIP",
+      "isKept": true,
       "nameAka": [
         "V.I.P."
       ],

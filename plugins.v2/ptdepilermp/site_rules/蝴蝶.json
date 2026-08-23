@@ -5,6 +5,9 @@
     {
       "id": 1,
       "name": "User",
+      "nameAka": [
+        "萌动"
+      ],
       "privilege": "新用户的默认级别。"
     },
     {

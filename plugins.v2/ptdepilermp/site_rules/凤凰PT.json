@@ -1,11 +1,11 @@
 {
-  "name": "Depth Studio",
+  "name": "凤凰PT",
   "is_dead": false,
   "levels": [
     {
       "id": 1,
       "name": "Peasant",
-      "privilege": "被降级的用户，他们有30天时间来提升分享率，否则他们会被踢。不能发表趣味盒内容；不能申请友情链接；不能上传字幕。"
+      "privilege": "\t被降级的用户，他们有30天时间来提升分享率，否则他们会被踢。不能发表趣味盒内容；不能申请友情链接；不能上传字幕。"
     },
     {
       "id": 2,
@@ -16,10 +16,9 @@
       "id": 3,
       "name": "Power User",
       "privilege": "得到一个邀请名额；可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种； 可以发送邀请； 可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为\"强\")； 可以删除自己上传的字幕。",
-      "interval": "P5W",
+      "interval": "P4W",
       "downloaded": "50GB",
-      "ratio": 1.05,
-      "seedingBonus": 25000
+      "ratio": 1.05
     },
     {
       "id": 4,
@@ -27,8 +26,7 @@
       "privilege": "Elite User及以上用户封存账号后不会被删除。",
       "interval": "P8W",
       "downloaded": "120GB",
-      "ratio": 1.55,
-      "seedingBonus": 60000
+      "ratio": 1.55
     },
     {
       "id": 5,
@@ -36,8 +34,7 @@
       "privilege": "得到两个邀请名额；可以在做种/下载/发布的时候选择匿名模式。",
       "interval": "P15W",
       "downloaded": "300GB",
-      "ratio": 2.05,
-      "seedingBonus": 120000
+      "ratio": 2.05
     },
     {
       "id": 6,
@@ -45,44 +42,40 @@
       "privilege": "可以查看普通日志。",
       "interval": "P25W",
       "downloaded": "500GB",
-      "ratio": 2.55,
-      "seedingBonus": 200000
+      "ratio": 2.55
     },
     {
       "id": 7,
       "name": "Veteran User",
+      "isKept": true,
       "privilege": "得到三个邀请名额；可以查看其它用户的评论、帖子历史。Veteran User及以上用户会永远保留账号。",
       "interval": "P40W",
       "downloaded": "750GB",
-      "ratio": 3.05,
-      "seedingBonus": 350000
+      "ratio": 3.05
     },
     {
       "id": 8,
       "name": "Extreme User",
       "privilege": "可以更新过期的外部信息；可以查看Extreme User论坛。",
       "interval": "P60W",
-      "downloaded": "1TB",
-      "ratio": 3.55,
-      "seedingBonus": 500000
+      "downloaded": "1024GB",
+      "ratio": 3.55
     },
     {
       "id": 9,
       "name": "Ultimate User",
       "privilege": "得到五个邀请名额。",
       "interval": "P80W",
-      "downloaded": "1.5TB",
-      "ratio": 4.05,
-      "seedingBonus": 700000
+      "downloaded": "1536GB",
+      "ratio": 4.05
     },
     {
       "id": 10,
       "name": "Nexus Master",
       "privilege": "得到十个邀请名额。",
       "interval": "P100W",
-      "downloaded": "3TB",
-      "ratio": 4.55,
-      "seedingBonus": 1000000
+      "downloaded": "3072GB",
+      "ratio": 4.55
     },
     {
       "id": 100,
